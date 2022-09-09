@@ -23,6 +23,8 @@ Used [RukChessTrainer](https://github.com/Ilya-Ruk/RukChessTrainer), commit cde6
     ...
     Epoch: [#  117], Error: [0.06996010], Delta: [-0.00002921], LR: [0.00500], Speed: [   656156 pos/s], Time: [539s]
 
+### Tests by epoch
+
 game_001.pgn (epoch 50)
 
     Score of RukChess 3.0 NNUE2 vs RukChess 3.0 Toga: 755 - 117 - 128  [0.819] 1000
@@ -62,3 +64,38 @@ game_005.pgn (epoch 40)
     ...      RukChess 3.0 NNUE2 playing Black: 405 - 41 - 54  [0.864] 500
     ...      White vs Black: 417 - 467 - 116  [0.475] 1000
     Elo difference: 286.8 +/- 26.0, LOS: 100.0 %, DrawRatio: 11.6 %
+
+Choosing a neural network with the maximum increase in ELO: epoch 40 (~+287 ELO)
+
+### Tests with other engines (epoch 40 used)
+
+game_006.pgn (Hakkapeliitta 3.0 x64, 2984 ELO)
+
+    Score of RukChess 3.0 NNUE2 vs Hakkapeliitta 3.0 x64: 664 - 156 - 180  [0.754] 1000
+    ...      RukChess 3.0 NNUE2 playing White: 308 - 91 - 101  [0.717] 500
+    ...      RukChess 3.0 NNUE2 playing Black: 356 - 65 - 79  [0.791] 500
+    ...      White vs Black: 373 - 447 - 180  [0.463] 1000
+    Elo difference: 194.6 +/- 21.8, LOS: 100.0 %, DrawRatio: 18.0 %
+
+game_007.pgn (Demolito 2021-10-04, 3166 ELO (2021-04-03))
+
+    Finished game 999 (RukChess 3.0 NNUE2 vs demolito_pext): 1/2-1/2 {Draw by adjudication}
+    Score of RukChess 3.0 NNUE2 vs demolito_pext: 373 - 392 - 235  [0.490] 1000
+    ...      RukChess 3.0 NNUE2 playing White: 182 - 204 - 114  [0.478] 500
+    ...      RukChess 3.0 NNUE2 playing Black: 191 - 188 - 121  [0.503] 500
+    ...      White vs Black: 370 - 395 - 235  [0.487] 1000
+    Elo difference: -6.6 +/- 18.8, LOS: 24.6 %, DrawRatio: 23.5 %
+
+game_008.pgn (Xiphos 0.6 BMI2, 3332 ELO)
+
+    Score of RukChess 3.0 NNUE2 vs xiphos-0.6-w64-bmi2: 156 - 596 - 248  [0.280] 1000
+    ...      RukChess 3.0 NNUE2 playing White: 70 - 303 - 127  [0.267] 500
+    ...      RukChess 3.0 NNUE2 playing Black: 86 - 293 - 121  [0.293] 500
+    ...      White vs Black: 363 - 389 - 248  [0.487] 1000
+    Elo difference: -164.1 +/- 20.0, LOS: 0.0 %, DrawRatio: 24.8 %
+
+1. Hakkapeliitta 3.0 x64: 2984 + 195 = 3179
+2. Demolito 2021-10-04:   3166 -   7 = 3159
+3. Xiphos 0.6 BMI2:       3332 - 164 = 3168
+
+**Avg. 3169 ELO**
