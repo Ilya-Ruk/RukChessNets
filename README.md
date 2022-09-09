@@ -94,6 +94,8 @@ game_008.pgn (Xiphos 0.6 BMI2, 3332 ELO)
     ...      White vs Black: 363 - 389 - 248  [0.487] 1000
     Elo difference: -164.1 +/- 20.0, LOS: 0.0 %, DrawRatio: 24.8 %
 
+### ELO calculation
+
 1. Hakkapeliitta 3.0 x64: 2984 + 195 = 3179
 2. Demolito 2021-10-04:   3166 -   7 = 3159
 3. Xiphos 0.6 BMI2:       3332 - 164 = 3168
