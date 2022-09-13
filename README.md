@@ -66,7 +66,8 @@ game_005.pgn (epoch 40)
     Elo difference: 286.8 +/- 26.0, LOS: 100.0 %, DrawRatio: 11.6 %
 
 ELO gain compared to RukChess 3.0 Toga
-![ELO gain compared to RukChess 3.0 Toga](Tests 001/ELO gain compared to RukChess 3.0 Toga.jpg)
+
+![ELO gain compared to RukChess 3.0 Toga](Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
 
 **Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
