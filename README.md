@@ -71,6 +71,10 @@ game_005.pgn (epoch 40)
 
 **Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
+#### Hidden weights (epoch 40)
+
+![Hidden weights (epoch 40)](Tests%20001/Hidden%20weights%20(epoch%2040).jpg)
+
 ### Tests with other engines (epoch 40 used)
 
 game_006.pgn (Hakkapeliitta 3.0 x64, 2984 ELO)
