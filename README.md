@@ -65,7 +65,10 @@ game_005.pgn (epoch 40)
     ...      White vs Black: 417 - 467 - 116  [0.475] 1000
     Elo difference: 286.8 +/- 26.0, LOS: 100.0 %, DrawRatio: 11.6 %
 
-**Choosing a neural network with the maximum increase in ELO: epoch 40 (~+287 ELO)**
+ELO gain compared to RukChess 3.0 Toga
+![ELO gain compared to RukChess 3.0 Toga](Tests 001/ELO gain compared to RukChess 3.0 Toga.jpg)
+
+**Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
 ### Tests with other engines (epoch 40 used)
 
