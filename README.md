@@ -65,7 +65,10 @@ game_005.pgn (epoch 40)
     ...      White vs Black: 417 - 467 - 116  [0.475] 1000
     Elo difference: 286.8 +/- 26.0, LOS: 100.0 %, DrawRatio: 11.6 %
 
-Choosing a neural network with the maximum increase in ELO: epoch 40 (~+287 ELO)
+ELO gain compared to RukChess 3.0 Toga
+![ELO gain compared to RukChess 3.0 Toga](Tests 001/ELO gain compared to RukChess 3.0 Toga.jpg)
+
+**Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
 ### Tests with other engines (epoch 40 used)
 
@@ -93,6 +96,8 @@ game_008.pgn (Xiphos 0.6 BMI2, 3332 ELO)
     ...      RukChess 3.0 NNUE2 playing Black: 86 - 293 - 121  [0.293] 500
     ...      White vs Black: 363 - 389 - 248  [0.487] 1000
     Elo difference: -164.1 +/- 20.0, LOS: 0.0 %, DrawRatio: 24.8 %
+
+### ELO calculation
 
 1. Hakkapeliitta 3.0 x64: 2984 + 195 = 3179
 2. Demolito 2021-10-04:   3166 -   7 = 3159
