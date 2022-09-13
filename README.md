@@ -65,7 +65,7 @@ game_005.pgn (epoch 40)
     ...      White vs Black: 417 - 467 - 116  [0.475] 1000
     Elo difference: 286.8 +/- 26.0, LOS: 100.0 %, DrawRatio: 11.6 %
 
-ELO gain compared to RukChess 3.0 Toga
+#### ELO gain compared to RukChess 3.0 Toga
 
 ![ELO gain compared to RukChess 3.0 Toga](Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
 
