@@ -87,7 +87,6 @@ game_006.pgn (Hakkapeliitta 3.0 x64, 2984 ELO)
 
 game_007.pgn (Demolito 2021-10-04, 3166 ELO (2021-04-03))
 
-    Finished game 999 (RukChess 3.0 NNUE2 vs demolito_pext): 1/2-1/2 {Draw by adjudication}
     Score of RukChess 3.0 NNUE2 vs demolito_pext: 373 - 392 - 235  [0.490] 1000
     ...      RukChess 3.0 NNUE2 playing White: 182 - 204 - 114  [0.478] 500
     ...      RukChess 3.0 NNUE2 playing Black: 191 - 188 - 121  [0.503] 500
