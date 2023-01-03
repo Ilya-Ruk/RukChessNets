@@ -64,13 +64,13 @@ game_005.pgn (epoch 40)
 
 ### ELO gain compared to RukChess 3.0 Toga
 
-![ELO gain compared to RukChess 3.0 Toga](Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
+![ELO gain compared to RukChess 3.0 Toga](../Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
 
 **Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
 ### Hidden weights (epoch 40)
 
-![Hidden weights (epoch 40)](Tests%20001/Hidden%20weights%20(epoch%2040).jpg)
+![Hidden weights (epoch 40)](../Tests%20001/Hidden%20weights%20(epoch%2040).jpg)
 
 ## Tests with other engines (epoch 40 used)
 
