@@ -38,3 +38,5 @@ game_256.pgn (rukchess_140.nnue)
     ...      RukChess 3.0.5 NNUE2 playing Black: 386 - 57 - 57  [0.829] 500
     ...      White vs Black: 420 - 461 - 119  [0.479] 1000
     Elo difference: 250.2 +/- 24.6, LOS: 100.0 %, DrawRatio: 11.9 %
+
+**Choosing a neural network with the maximum increase in ELO: epoch 120 (+292 ELO)**
