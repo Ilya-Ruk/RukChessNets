@@ -1,6 +1,8 @@
 # Nets 070 ((768 x 512) x 2) x 1
 Used [RukChessTrainer](https://github.com/Ilya-Ruk/RukChessTrainer), commit [04e9b9b9eb18be17d98815887809cb0337fe229a](https://github.com/Ilya-Ruk/RukChessTrainer/commit/04e9b9b9eb18be17d98815887809cb0337fe229a)
 
+## Train (90%) and Valid (10%) data - CCRL-404.[2915638].pgn.7z
+
     Valid positions: 40284592
     Train positions: 362561328
     Total positions: 402845920
