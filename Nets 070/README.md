@@ -43,3 +43,7 @@ game_256.pgn (rukchess_140.nnue)
     Elo difference: 250.2 +/- 24.6, LOS: 100.0 %, DrawRatio: 11.9 %
 
 **Choosing a neural network with the maximum increase in ELO: epoch 120 (+292 ELO)**
+
+### Hidden weights (epoch 120)
+
+![Hidden weights (epoch 120)](../Tests%20070/Hidden%20weights%20(epoch%20120).jpg)
