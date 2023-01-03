@@ -1,8 +1,14 @@
 # Nets 001 ((768 x 512) x 2) x 1
+
 Used [RukChessTrainer](https://github.com/Ilya-Ruk/RukChessTrainer), commit [cde6949546edca35b9049b986a231ca0212e9032](https://github.com/Ilya-Ruk/RukChessTrainer/commit/cde6949546edca35b9049b986a231ca0212e9032)
 
-    Valid positions:   39351346
-    Train positions:  354162112
+## Valid (10%) and train (90%) data - CCRL-404.[2846288].pgn.7z
+
+    Valid positions:  39351346
+    Train positions: 354162112
+    Total positions: 393513458
+
+## Train the network
 
     Starting Error: [0.11077870]
 
@@ -64,13 +70,13 @@ game_005.pgn (epoch 40)
 
 ### ELO gain compared to RukChess 3.0 Toga
 
-![ELO gain compared to RukChess 3.0 Toga](Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
+![ELO gain compared to RukChess 3.0 Toga](../Tests%20001/ELO%20gain%20compared%20to%20RukChess%203.0%20Toga.jpg)
 
 **Choosing a neural network with the maximum increase in ELO: epoch 40 (+287 ELO)**
 
 ### Hidden weights (epoch 40)
 
-![Hidden weights (epoch 40)](Tests%20001/Hidden%20weights%20(epoch%2040).jpg)
+![Hidden weights (epoch 40)](../Tests%20001/Hidden%20weights%20(epoch%2040).jpg)
 
 ## Tests with other engines (epoch 40 used)
 
