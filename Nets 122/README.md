@@ -14,9 +14,9 @@ Total positions: 442912004
 
 ## Train the network
 
+```
 c:\Train>trainer.exe -t games_train.fen -v games_valid.fen
 
-```
 No net specified, generating a random net...
 No net specified, generating a random net...DONE
 
