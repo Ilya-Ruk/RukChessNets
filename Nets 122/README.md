@@ -6,14 +6,17 @@ Used [RukChessTrainer](https://github.com/Ilya-Ruk/RukChessTrainer), commit [d16
 
 Source: CCRL.40-2.Archive.[2165313].pgn.7z (04.02.2020) + CCRL-404.[1036964].pgn.7z (03.12.2023)
 
+```
 Valid positions:  44291201 (10%) - games_valid.fen
 Train positions: 398620803 (90%) - games_train.fen
 Total positions: 442912004
+```
 
 ## Train the network
 
 c:\Train>trainer.exe -t games_train.fen -v games_valid.fen
 
+```
 No net specified, generating a random net...
 No net specified, generating a random net...DONE
 
@@ -152,6 +155,7 @@ Epoch: 122 Valid error: 0.06871124 (-0.00001414) Time: 495 sec Speed:  804865 po
 Epoch: 123 Valid error: 0.06868328 (-0.00002795) Time: 492 sec Speed:  808722 pos/sec
 Epoch: 124 Valid error: 0.06871869 (+0.00003541) Time: 514 sec Speed:  774101 pos/sec
 Epoch: 125 Valid error: 0.06871703 (-0.00000166) Time: 846 sec Speed:  470855 pos/sec
+```
 
 ## Valid error by epoch
 
@@ -161,139 +165,173 @@ Epoch: 125 Valid error: 0.06871703 (-0.00000166) Time: 846 sec Speed:  470855 po
 
 game_001.pgn (rukchess_039.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 102 - 11 - 17  [0.850] 130
 ...      RukChess 3.0.18 NNUE2 playing White: 51 - 6 - 8  [0.846] 65
 ...      RukChess 3.0.18 NNUE2 playing Black: 51 - 5 - 9  [0.854] 65
 ...      White vs Black: 56 - 57 - 17  [0.496] 130
 Elo difference: 301.3 +/- 74.8, LOS: 100.0 %, DrawRatio: 13.1 %
+```
 
 game_002.pgn (rukchess_122.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 51 - 54 - 5  [0.486] 110
 ...      RukChess 3.0.18 NNUE2 playing White: 26 - 26 - 3  [0.500] 55
 ...      RukChess 3.0.18 NNUE2 playing Black: 25 - 28 - 2  [0.473] 55
 ...      White vs Black: 54 - 51 - 5  [0.514] 110
 Elo difference: -9.5 +/- 64.1, LOS: 38.5 %, DrawRatio: 4.5 %
+```
 
 game_003.pgn (rukchess_075.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 781 - 109 - 110  [0.836] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 376 - 66 - 58  [0.810] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 405 - 43 - 52  [0.862] 500
 ...      White vs Black: 419 - 471 - 110  [0.474] 1000
 Elo difference: 282.9 +/- 26.1, LOS: 100.0 %, DrawRatio: 11.0 %
+```
 
 game_004.pgn (rukchess_062.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 804 - 84 - 112  [0.860] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 392 - 50 - 58  [0.842] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 412 - 34 - 54  [0.878] 500
 ...      White vs Black: 426 - 462 - 112  [0.482] 1000
 Elo difference: 315.3 +/- 27.3, LOS: 100.0 %, DrawRatio: 11.2 %
+```
 
 game_005.pgn (rukchess_058.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 793 - 105 - 102  [0.844] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 385 - 59 - 56  [0.826] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 408 - 46 - 46  [0.862] 500
 ...      White vs Black: 431 - 467 - 102  [0.482] 1000
 Elo difference: 293.3 +/- 26.7, LOS: 100.0 %, DrawRatio: 10.2 %
+```
 
 game_006.pgn (rukchess_069.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 784 - 101 - 115  [0.842] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 387 - 51 - 62  [0.836] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 397 - 50 - 53  [0.847] 500
 ...      White vs Black: 437 - 448 - 115  [0.494] 1000
 Elo difference: 290.0 +/- 26.2, LOS: 100.0 %, DrawRatio: 11.5 %
+```
 
 game_007.pgn (rukchess_067.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 784 - 106 - 110  [0.839] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 380 - 64 - 56  [0.816] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 404 - 42 - 54  [0.862] 500
 ...      White vs Black: 422 - 468 - 110  [0.477] 1000
 Elo difference: 286.8 +/- 26.2, LOS: 100.0 %, DrawRatio: 11.0 %
+```
 
 game_008.pgn (rukchess_025.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 768 - 118 - 114  [0.825] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 369 - 70 - 61  [0.799] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 399 - 48 - 53  [0.851] 500
 ...      White vs Black: 417 - 469 - 114  [0.474] 1000
 Elo difference: 269.4 +/- 25.5, LOS: 100.0 %, DrawRatio: 11.4 %
+```
 
 game_009.pgn (rukchess_065.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 800 - 92 - 108  [0.854] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 388 - 51 - 61  [0.837] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 412 - 41 - 47  [0.871] 500
 ...      White vs Black: 429 - 463 - 108  [0.483] 1000
 Elo difference: 306.8 +/- 27.1, LOS: 100.0 %, DrawRatio: 10.8 %
+```
 
 game_010.pgn (rukchess_064.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 819 - 86 - 95  [0.867] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 406 - 42 - 52  [0.864] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 413 - 44 - 43  [0.869] 500
 ...      White vs Black: 450 - 455 - 95  [0.497] 1000
 Elo difference: 324.9 +/- 28.3, LOS: 100.0 %, DrawRatio: 9.5 %
+```
 
 game_011.pgn (rukchess_063.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 775 - 123 - 102  [0.826] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 374 - 75 - 51  [0.799] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 401 - 48 - 51  [0.853] 500
 ...      White vs Black: 422 - 476 - 102  [0.473] 1000
 Elo difference: 270.6 +/- 25.8, LOS: 100.0 %, DrawRatio: 10.2 %
+```
 
 game_012.pgn (rukchess_050.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 790 - 91 - 119  [0.850] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 385 - 51 - 64  [0.834] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 405 - 40 - 55  [0.865] 500
 ...      White vs Black: 425 - 456 - 119  [0.484] 1000
 Elo difference: 300.7 +/- 26.5, LOS: 100.0 %, DrawRatio: 11.9 %
+```
 
 game_013.pgn (rukchess_064.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 787 - 90 - 123  [0.849] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 386 - 47 - 67  [0.839] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 401 - 43 - 56  [0.858] 500
 ...      White vs Black: 429 - 448 - 123  [0.490] 1000
 Elo difference: 299.3 +/- 26.3, LOS: 100.0 %, DrawRatio: 12.3 %
+```
 
 game_014.pgn (rukchess_081.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 806 - 85 - 109  [0.861] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 386 - 52 - 62  [0.834] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 420 - 33 - 47  [0.887] 500
 ...      White vs Black: 419 - 472 - 109  [0.473] 1000
 Elo difference: 316.1 +/- 27.4, LOS: 100.0 %, DrawRatio: 10.9 %
+```
 
 game_015.pgn (rukchess_089.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 785 - 88 - 127  [0.849] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 380 - 53 - 67  [0.827] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 405 - 35 - 60  [0.870] 500
 ...      White vs Black: 415 - 458 - 127  [0.478] 1000
 Elo difference: 299.3 +/- 26.1, LOS: 100.0 %, DrawRatio: 12.7 %
+```
 
 game_016.pgn (rukchess_100.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 790 - 104 - 106  [0.843] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 387 - 53 - 60  [0.834] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 403 - 51 - 46  [0.852] 500
 ...      White vs Black: 438 - 456 - 106  [0.491] 1000
 Elo difference: 292.0 +/- 26.6, LOS: 100.0 %, DrawRatio: 10.6 %
+```
 
 game_017.pgn (rukchess_110.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.18 Toga: 732 - 142 - 126  [0.795] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 359 - 82 - 59  [0.777] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 373 - 60 - 67  [0.813] 500
 ...      White vs Black: 419 - 455 - 126  [0.482] 1000
 Elo difference: 235.4 +/- 24.0, LOS: 100.0 %, DrawRatio: 12.6 %
+```
 
 ## ELO by epoch
 
@@ -309,32 +347,39 @@ RukChess 3.0.18 NNUE2 (rukchess_064.nnue) vs RukChess 3.0.15 NNUE2 (#877)
 
 game_019.pgn (tc=120+1)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 281 - 170 - 549  [0.555] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 129 - 98 - 273  [0.531] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 152 - 72 - 276  [0.580] 500
 ...      White vs Black: 201 - 250 - 549  [0.475] 1000
 Elo difference: 38.7 +/- 14.4, LOS: 100.0 %, DrawRatio: 54.9 %
+```
 
 RukChess 3.0.18 NNUE2 (rukchess_081.nnue) vs RukChess 3.0.15 NNUE2 (#877)
 
 game_020.pgn (tc=120+1)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 300 - 171 - 529  [0.565] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 117 - 111 - 272  [0.506] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 183 - 60 - 257  [0.623] 500
 ...      White vs Black: 177 - 294 - 529  [0.442] 1000
 Elo difference: 45.1 +/- 14.7, LOS: 100.0 %, DrawRatio: 52.9 %
+```
 
 game_021.pgn (tc=15+0.15)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 356 - 237 - 407  [0.559] 1000
 ...      RukChess 3.0.18 NNUE2 playing White: 166 - 127 - 207  [0.539] 500
 ...      RukChess 3.0.18 NNUE2 playing Black: 190 - 110 - 200  [0.580] 500
 ...      White vs Black: 276 - 317 - 407  [0.479] 1000
 Elo difference: 41.5 +/- 16.6, LOS: 100.0 %, DrawRatio: 40.7 %
+```
 
 ## SPRT
 
+```
 cutechess-cli.exe
  -each proto=uci tc=15+0.15 option.Hash=128 option.Threads=1
  -engine dir="c:\RukChess 3.0.18" name="RukChess 3.0.18 NNUE2" cmd="RukChess 3.0.18 NNUE2.exe"
@@ -347,9 +392,11 @@ cutechess-cli.exe
  -concurrency 6
  -ratinginterval 10
  -pgnout game_023.pgn
+```
 
 game_023.pgn (net-7cf57d4dc994.nnue)
 
+```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 187 - 123 - 255  [0.557] 565
 ...      RukChess 3.0.18 NNUE2 playing White: 92 - 63 - 128  [0.551] 283
 ...      RukChess 3.0.18 NNUE2 playing Black: 95 - 60 - 127  [0.562] 282
@@ -357,3 +404,4 @@ Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 187 - 123 - 255  [0.557
 Elo difference: 39.5 +/- 21.2, LOS: 100.0 %, DrawRatio: 45.1 %
 
 SPRT: llr 2.97 (101.0%), lbound -2.94, ubound 2.94 - H1 was accepted
+```
