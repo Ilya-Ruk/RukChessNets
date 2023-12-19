@@ -337,10 +337,6 @@ Elo difference: 235.4 +/- 24.0, LOS: 100.0 %, DrawRatio: 12.6 %
 
 ![ELO by epoch](../Tests%20122/ELObyEpoch.jpg)
 
-### Hidden weights (epoch 81)
-
-![Hidden weights (epoch 81)](../Tests%20122/HiddenWeights.jpg)
-
 ## RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2
 
 RukChess 3.0.18 NNUE2 (rukchess_064.nnue) vs RukChess 3.0.15 NNUE2 (#877)
@@ -377,6 +373,10 @@ Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 356 - 237 - 407  [0.559
 Elo difference: 41.5 +/- 16.6, LOS: 100.0 %, DrawRatio: 40.7 %
 ```
 
+## Hidden weights (epoch 81, net-7cf57d4dc994.nnue)
+
+![Hidden weights (epoch 81)](../Tests%20122/HiddenWeights.jpg)
+
 ## SPRT
 
 ```
@@ -394,7 +394,7 @@ cutechess-cli.exe
  -pgnout game_023.pgn
 ```
 
-game_023.pgn (net-7cf57d4dc994.nnue)
+game_023.pgn (epoch 81, net-7cf57d4dc994.nnue)
 
 ```
 Score of RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2: 187 - 123 - 255  [0.557] 565
