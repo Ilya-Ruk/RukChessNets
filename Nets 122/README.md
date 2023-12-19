@@ -301,7 +301,7 @@ Elo difference: 235.4 +/- 24.0, LOS: 100.0 %, DrawRatio: 12.6 %
 
 ### Hidden weights (epoch 81)
 
-![Hidden weights (epoch 81)](../Tests%20001/HiddenWeights.jpg)
+![Hidden weights (epoch 81)](../Tests%20122/HiddenWeights.jpg)
 
 ## RukChess 3.0.18 NNUE2 vs RukChess 3.0.15 NNUE2
 
