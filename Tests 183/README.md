@@ -8,8 +8,8 @@ Used [RukChessTrainer](https://github.com/Ilya-Ruk/RukChessTrainer), commit [319
 2. CCRL Blitz (29.03.2025) - 1542299 games (214001491 fens)
 3. CCRL 40/15 (28.03.2025) - 2065518 games (275777569 fens)
 
-    Train positions: 711228770
-    Valid positions:  20000000
+Train positions: 711228770  
+Valid positions:  20000000
 
 ## Tests (rukchess_111.nnue)
 
